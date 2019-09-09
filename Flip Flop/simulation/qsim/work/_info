@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/simulation/qsim
+vFFJK
+Z1 !s110 1566437662
+!i10b 1
+!s100 OnAIjeQ8iN6EkaCZCP@Ak0
+ImZE:RR3UGDKkW[XGnOUYL3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1566437660
+8FFJK.vo
+FFFJK.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1566437662.000000
+!s107 FFJK.vo|
+!s90 -work|work|FFJK.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@f@f@j@k
+vFFJK_vlg_vec_tst
+R1
+!i10b 1
+!s100 f>5l5kiZfaQO9:Eb7ga3:2
+I2fK[kLZigS]1`=9BBgaV62
+R2
+R0
+w1566437658
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@f@f@j@k_vlg_vec_tst

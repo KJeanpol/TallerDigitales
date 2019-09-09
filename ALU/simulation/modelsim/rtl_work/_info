@@ -1,0 +1,309 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1567627372
+!i10b 1
+!s100 12U_QBY[PeHSBezK:gAz[1
+IGVcPo;_i;QD;BHK61C9A43
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ALU_sv_unit
+S1
+R0
+w1567319886
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/ALU.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/ALU.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1567627370.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/ALU.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work {+incdir+C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3}
+Z4 tCvgOpt 0
+n@a@l@u
+vAND_GATE
+R1
+!s110 1567627909
+!i10b 1
+!s100 k4?dnnHJgVXlYTY_0z5og1
+Ig?zZ4T^8G=XKFYKLgOKdX0
+R2
+!s105 AND_GATE_sv_unit
+S1
+R0
+w1567627753
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/AND_GATE.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/AND_GATE.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567627909.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/AND_GATE.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/AND_GATE.sv|
+!i113 1
+Z5 o-work work
+R4
+n@a@n@d_@g@a@t@e
+vfull_adder
+R1
+!s110 1567627424
+!i10b 1
+!s100 bl@M<ENQn@nPN:LRO<Glh1
+IaLf_@@Wj0FI2gcQA`^0`P2
+R2
+!s105 full_adder_sv_unit
+S1
+R0
+w1567317002
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567627424.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv|
+!i113 1
+R5
+R4
+vhalf_adder
+R1
+!s110 1567627393
+!i10b 1
+!s100 mLM9lEWf^M`>1fW4?8Ni41
+IlGg8OI9d0WbKW01=dVG9m3
+R2
+!s105 half_adder_sv_unit
+S1
+R0
+w1567627113
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/half_adder.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/half_adder.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567627393.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/half_adder.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/half_adder.sv|
+!i113 1
+R5
+R4
+vNOT_GATE
+R1
+!s110 1567628472
+!i10b 1
+!s100 7Xio4=@;4:bY9d7<90O1N2
+I[k^E[?JMklM9M8<^d_Z;<1
+R2
+!s105 NOT_GATE_sv_unit
+S1
+R0
+w1567628469
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/NOT_GATE.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/NOT_GATE.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567628472.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/NOT_GATE.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/NOT_GATE.sv|
+!i113 1
+R5
+R4
+n@n@o@t_@g@a@t@e
+vOR_GATE
+R1
+!s110 1567628053
+!i10b 1
+!s100 >YDW<71ollb9OegDhCTQY2
+I8c<1ZAi]S:OJO4ZPWTcIe1
+R2
+!s105 OR_GATE_sv_unit
+S1
+R0
+w1567628016
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567628053.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv|
+!i113 1
+R5
+R4
+n@o@r_@g@a@t@e
+vtestebench_AND
+R1
+!s110 1567628581
+!i10b 1
+!s100 f?@@jBUb`SWRR2G6^mYeo0
+I1WeILLCloobcnob?1@]Xk2
+R2
+!s105 testebench_AND_sv_unit
+S1
+R0
+w1567628563
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_AND.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_AND.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567628581.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_AND.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_AND.sv|
+!i113 1
+R5
+R4
+ntestebench_@a@n@d
+vtestebench_FULL_ADDER
+R1
+!s110 1567627414
+!i10b 1
+!s100 ZaGXe2HPTgiPnZ;>m:bDd3
+I2Nzjg2nPzR:XO^TgY1J4I0
+R2
+!s105 testebench_FULL_ADDER_sv_unit
+S1
+R0
+w1567318011
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_FULL_ADDER.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_FULL_ADDER.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567627414.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_FULL_ADDER.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_FULL_ADDER.sv|
+!i113 1
+R5
+R4
+ntestebench_@f@u@l@l_@a@d@d@e@r
+vtestebench_NOT_GATE
+R1
+!s110 1567628476
+!i10b 1
+!s100 O2Q<7OS8na15GZNWe[C^F3
+IZW?DmEekoiknkXdK23RnF2
+R2
+!s105 testebench_NOT_GATE_sv_unit
+S1
+R0
+w1567628441
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_NOT_GATE.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_NOT_GATE.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567628476.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_NOT_GATE.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_NOT_GATE.sv|
+!i113 1
+R5
+R4
+ntestebench_@n@o@t_@g@a@t@e
+vtestebench_OR
+R1
+!s110 1567628056
+!i10b 1
+!s100 YzmF29MW[MjZ]a6mWbN?20
+IfUQV2K<o@>7`Y>`nEWjOU0
+R2
+!s105 testebench_OR_sv_unit
+S1
+R0
+w1567628038
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_OR.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_OR.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567628056.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_OR.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_OR.sv|
+!i113 1
+R5
+R4
+ntestebench_@o@r
+vtestebench_XOR_GATE
+R1
+!s110 1567628305
+!i10b 1
+!s100 C9BJbhO2AkQ5ZbeBUJa>k2
+IR01kfRc;::]R7]WbkiU7I2
+R2
+!s105 testebench_XOR_GATE_sv_unit
+S1
+R0
+w1567628271
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_XOR_GATE.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_XOR_GATE.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567628305.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_XOR_GATE.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_XOR_GATE.sv|
+!i113 1
+R5
+R4
+ntestebench_@x@o@r_@g@a@t@e
+vXOR_GATE
+R1
+!s110 1567628302
+!i10b 1
+!s100 >TNLIg[9<1Z0fgbFWY1cg0
+I4XfVFl4j5YU3TzhnW4b<L2
+R2
+!s105 XOR_GATE_sv_unit
+S1
+R0
+w1567628227
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/XOR_GATE.sv
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/XOR_GATE.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1567628302.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/XOR_GATE.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/XOR_GATE.sv|
+!i113 1
+R5
+R4
+n@x@o@r_@g@a@t@e

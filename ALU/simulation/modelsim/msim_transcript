@@ -1,0 +1,250 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ALU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/kenne/Documents/workspace/Taller\ Digitales/TallerDigitales/Laboratorios/Lab3 {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:02:50 on Sep 04,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3" C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 14:02:52 on Sep 04,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/half_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:03:13 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/half_adder.sv 
+# -- Compiling module half_adder
+# 
+# Top level modules:
+# 	half_adder
+# End time: 14:03:13 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_FULL_ADDER.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:03:34 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_FULL_ADDER.sv 
+# -- Compiling module testebench_FULL_ADDER
+# 
+# Top level modules:
+# 	testebench_FULL_ADDER
+# End time: 14:03:34 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:03:44 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 14:03:44 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testebench_FULL_ADDER
+# vsim work.testebench_FULL_ADDER 
+# Start time: 14:03:51 on Sep 04,2019
+# Loading sv_std.std
+# Loading work.testebench_FULL_ADDER
+# Loading work.full_adder
+# Loading work.half_adder
+# ** Warning: (vsim-3015) C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_FULL_ADDER.sv(8): [PCDPC] - Port size (4) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testebench_FULL_ADDER/full_adder_test File: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_FULL_ADDER.sv(8): [PCDPC] - Port size (4) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testebench_FULL_ADDER/full_adder_test File: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_FULL_ADDER.sv(8): [PCDPC] - Port size (4) does not match connection size (5) for port 'Sum'. The port definition is at: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testebench_FULL_ADDER/full_adder_test File: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/full_adder.sv
+add wave -position end  sim:/testebench_FULL_ADDER/A
+add wave -position end  sim:/testebench_FULL_ADDER/B
+add wave -position end  sim:/testebench_FULL_ADDER/cin
+add wave -position end  sim:/testebench_FULL_ADDER/Sum
+add wave -position end  sim:/testebench_FULL_ADDER/cout
+run
+run
+run
+run
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/AND_GATE.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:11:47 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/AND_GATE.sv 
+# -- Compiling module AND_GATE
+# 
+# Top level modules:
+# 	AND_GATE
+# End time: 14:11:47 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/AND_GATE.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:11:49 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/AND_GATE.sv 
+# -- Compiling module AND_GATE
+# 
+# Top level modules:
+# 	AND_GATE
+# End time: 14:11:49 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_AND.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:11:54 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_AND.sv 
+# -- Compiling module testebench_AND
+# 
+# Top level modules:
+# 	testebench_AND
+# End time: 14:11:54 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testebench_AND
+# End time: 14:12:00 on Sep 04,2019, Elapsed time: 0:08:09
+# Errors: 0, Warnings: 3
+# vsim work.testebench_AND 
+# Start time: 14:12:00 on Sep 04,2019
+# Loading sv_std.std
+# Loading work.testebench_AND
+# Loading work.AND_GATE
+add wave -position end  sim:/testebench_AND/A
+add wave -position end  sim:/testebench_AND/B
+add wave -position end  sim:/testebench_AND/OUT
+run
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:14:13 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv 
+# -- Compiling module OR_GATE
+# 
+# Top level modules:
+# 	OR_GATE
+# End time: 14:14:13 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_OR.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:14:16 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_OR.sv 
+# -- Compiling module testebench_OR
+# 
+# Top level modules:
+# 	testebench_OR
+# End time: 14:14:16 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testebench_OR
+# End time: 14:14:22 on Sep 04,2019, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 0
+# vsim work.testebench_OR 
+# Start time: 14:14:22 on Sep 04,2019
+# Loading sv_std.std
+# Loading work.testebench_OR
+# Loading work.OR_GATE
+# ** Warning: (vsim-3015) C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_OR.sv(6): [PCDPC] - Port size (4) does not match connection size (5) for port 'A'. The port definition is at: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testebench_OR/OR_test File: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv
+# ** Warning: (vsim-3015) C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_OR.sv(6): [PCDPC] - Port size (4) does not match connection size (5) for port 'B'. The port definition is at: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testebench_OR/OR_test File: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv
+# ** Warning: (vsim-3015) C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_OR.sv(6): [PCDPC] - Port size (4) does not match connection size (5) for port 'OUT'. The port definition is at: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testebench_OR/OR_test File: C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/OR_GATE.sv
+add wave -position end  sim:/testebench_OR/A
+add wave -position end  sim:/testebench_OR/B
+add wave -position end  sim:/testebench_OR/OUT
+run
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/XOR_GATE.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:18:22 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/XOR_GATE.sv 
+# -- Compiling module XOR_GATE
+# 
+# Top level modules:
+# 	XOR_GATE
+# End time: 14:18:22 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_XOR_GATE.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:18:25 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_XOR_GATE.sv 
+# -- Compiling module testebench_XOR_GATE
+# 
+# Top level modules:
+# 	testebench_XOR_GATE
+# End time: 14:18:25 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testebench_XOR_GATE
+# End time: 14:18:32 on Sep 04,2019, Elapsed time: 0:04:10
+# Errors: 0, Warnings: 3
+# vsim work.testebench_XOR_GATE 
+# Start time: 14:18:32 on Sep 04,2019
+# Loading sv_std.std
+# Loading work.testebench_XOR_GATE
+# Loading work.XOR_GATE
+add wave -position end  sim:/testebench_XOR_GATE/A
+add wave -position end  sim:/testebench_XOR_GATE/B
+add wave -position end  sim:/testebench_XOR_GATE/OUT
+run
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/NOT_GATE.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:54 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/NOT_GATE.sv 
+# -- Compiling module NOT_GATE
+# ** Error: (vlog-13069) C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/NOT_GATE.sv(10): near "end": syntax error, unexpected end, expecting ';' or ','.
+# End time: 14:20:54 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/NOT_GATE.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:21:12 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/NOT_GATE.sv 
+# -- Compiling module NOT_GATE
+# 
+# Top level modules:
+# 	NOT_GATE
+# End time: 14:21:12 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_NOT_GATE.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:21:16 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_NOT_GATE.sv 
+# -- Compiling module testebench_NOT_GATE
+# 
+# Top level modules:
+# 	testebench_NOT_GATE
+# End time: 14:21:16 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testebench_NOT_GATE
+# End time: 14:21:29 on Sep 04,2019, Elapsed time: 0:02:57
+# Errors: 1, Warnings: 0
+# vsim work.testebench_NOT_GATE 
+# Start time: 14:21:29 on Sep 04,2019
+# Loading sv_std.std
+# Loading work.testebench_NOT_GATE
+# Loading work.NOT_GATE
+add wave -position end  sim:/testebench_NOT_GATE/A
+add wave -position end  sim:/testebench_NOT_GATE/OUT
+run
+vlog -reportprogress 300 -work work {C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_AND.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:23:01 on Sep 04,2019
+# vlog -reportprogress 300 -work work C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Laboratorios/Lab3/testebench_AND.sv 
+# -- Compiling module testebench_AND
+# 
+# Top level modules:
+# 	testebench_AND
+# End time: 14:23:01 on Sep 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testebench_AND
+# End time: 14:23:08 on Sep 04,2019, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 0
+# vsim work.testebench_AND 
+# Start time: 14:23:08 on Sep 04,2019
+# Loading sv_std.std
+# Loading work.testebench_AND
+# Loading work.AND_GATE
+add wave -position end  sim:/testebench_AND/A
+add wave -position end  sim:/testebench_AND/B
+add wave -position end  sim:/testebench_AND/OUT
+run
+# End time: 16:45:59 on Sep 04,2019, Elapsed time: 2:22:51
+# Errors: 0, Warnings: 0

@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/simulation/modelsim
+vFFJK
+Z1 !s110 1566449196
+!i10b 1
+!s100 diPlaLYM_VO97:d1`a<GT1
+Io`efclM4d8RH3WbLkF58B0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1566448621
+Z4 8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/FFJK.v
+Z5 FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/FFJK.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1566449196.000000
+Z8 !s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/FFJK.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/FFJK.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop}
+Z12 tCvgOpt 0
+n@f@f@j@k
+vJK_ff
+R1
+!i10b 1
+!s100 W>Zb@:VMVTGW1ok=nhS[;1
+IjmR[lZFU03ODl8X6dcYKe1
+R2
+R0
+R3
+R4
+R5
+L0 8
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@j@k_ff
+vSR_ff
+R1
+!i10b 1
+!s100 >Y9WXE0_<PJ@YDBb16OQz1
+I9IgW1^kAAaSK<zIZ0l^im3
+R2
+R0
+R3
+R4
+R5
+L0 42
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@s@r_ff
+vSR_ff_tb
+!s110 1566449376
+!i10b 1
+!s100 3bTOQJaUA5Z8[FjldnLf22
+I?Y?4?IoSKo0TYk^KC>mS12
+R2
+R0
+w1566448948
+8C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/SR_ff_tb.v
+FC:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/SR_ff_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1566449376.000000
+!s107 C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/SR_ff_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/SR_ff_tb.v|
+!i113 1
+o-work work
+R12
+n@s@r_ff_tb

@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/FFJK.v
+source_file = 1, C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/JK_ff_tb.v
+source_file = 1, C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/Waveform.vwf
+source_file = 1, C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/SR_ff_tb.v
+source_file = 1, C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/jk_ff_testvectors.txt
+source_file = 1, C:/Users/kenne/Documents/workspace/Taller Digitales/TallerDigitales/Tarea Flip Flop/db/FFJK.cbx.xml
+design_name = FFJK
+instance = comp, \out~output , out~output, FFJK, 1
+instance = comp, \in~input , in~input, FFJK, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, FFJK, 1
